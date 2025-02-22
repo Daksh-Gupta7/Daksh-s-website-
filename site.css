@@ -1,0 +1,204 @@
+*{
+  margin:0;
+  padding: 0;
+}
+body{
+  background: floralwhite;
+}
+header{
+  display:flex;
+  background: darkslategray;
+  height: 2.5rem;
+  line-height: 2rem;
+}
+.search {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  background: gray;
+  border-style: none;
+  color: whitesmoke;
+  width: 11rem;
+  font-size: 1.5rem;
+  border-radius: 15%;
+  padding: inline;
+  display: inline;
+  margin-left:40rem;
+  display:flex; 
+}
+.heading{
+  display:flex;
+  background: floralwhite;
+  line-height: 3rem;
+  height:7rem;
+  border-style: solid;
+  border-color: antiquewhite;
+  text-align: center;
+  justify-content: center;
+}
+.contact{
+  margin-left: 40.75rem;
+  margin-top: 1rem;
+  display: flex;
+}
+.wname{
+  font-size: 35px;
+  margin: 1px;
+  padding: 1px;
+  margin-top: 1rem;
+}
+a{
+  color: white;
+  margin:1px;
+  padding: 1px;
+  font-size:1.70rem;
+  background: black;
+  margin-left: 1.5rem;
+  text-decoration: none;
+}
+.a,.search,.img,.read,.read_more,.view:hover{
+  cursor:pointer;
+  background: lightseagreen;
+}
+nav{
+  margin-top: 1rem;
+}
+.one{
+  background-image:url(/jai.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 980px;
+  height: 500px;
+  margin-top: 2rem;
+  text-align: center;
+  justify-content: center;
+  opacity: 87%;
+}
+.inside{
+  padding:2rem;
+  color:white;
+  font-size: 2rem;
+}
+.read{
+border-radius:20%;
+border-style: none;
+background: #7CAE7A;
+color:white;
+font-size: 1.5rem;
+width:11rem;
+height: 2.77rem;
+}
+.sicon{
+  width:1.5rem;
+  margin-left: 1rem;
+}
+.spara{
+  text-align: center;
+  font-size: 2rem;
+  margin-top: 4rem;
+}
+.shead{
+  text-align: center;
+}
+img{
+  grid-gap: 2px;
+  margin-left: 4px;
+  border-radius:50%;
+  background: lightseagreen;
+}
+.call{
+  width: 2rem;
+  height: 2rem;
+}
+.first{
+  width: 15rem;
+  height: 5rem;;
+  text-align: center;
+  margin-left: 10rem;
+  margin-top: 2.5rem;
+}
+.second{
+  margin-left:11rem;
+  width: 15rem;
+  height: 5rem;
+  margin-top: 2.5rem;
+  text-align: center;
+}
+.third{
+  margin-left:10rem;
+  width: 15rem;
+  height: 5rem;
+  margin-top: 2.5rem;
+  text-align: center;
+}
+.forth{
+  margin-left:11rem;
+  width: 15rem;
+  height: 5rem;
+  margin-top: 2.5rem;
+  text-align: center;
+}
+.smhead{
+  font-size: 2rem;
+  margin-top: 1rem;
+  font-family: Georgia, Times, 'Times New Roman', serif;
+}
+.smhsix{
+  margin-top: 3rem;
+  font-size: 1rem;
+}
+.big{
+  display: flex;
+  margin-top: 7rem;
+  width: 61rem;
+  height: 10rem;
+}
+.small{
+  display:flex;
+  margin-top: 11rem;
+  width: 61rem;
+  height: 10rem;
+}
+.simg{
+  width: 5rem;
+  height: 5rem;
+}
+.view{
+  text-align: center;
+  background: lightseagreen;
+  color: black;
+  margin-left: 25rem;
+  margin-top:17rem;
+  height: 2.5rem;
+  width: 11rem;
+  border-radius: 27%;
+  border-style: none;
+  font-size: 1.5rem;
+}
+.two{
+  background-image:url(/images.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 980px;
+  height: 500px;
+  margin-top: 2rem;
+  justify-content: center;
+  opacity: 77%;
+}
+.adjust{
+  text-align:left;
+  padding:2rem;
+  color:black;
+  font-size: 2rem;
+  width:27rem;
+}
+.read_more{
+border-radius:20%;
+border-style: none;
+background:#7CAE7A;
+color:white;
+font-size: 1.5rem;
+width:11rem;
+height: 2.77rem;
+margin-top: 2rem;
+}
